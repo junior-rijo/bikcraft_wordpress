@@ -6,14 +6,18 @@ Author URI: http://origamid.com/
 Description: Tema criado para a Bikcraft
 Version: 1.0
 */
-
-@import "css/reset.css";
+/*Estilos ADM WordPress*/
 @import "css/normalize.css";
+@import "css/reset.css";
 @import "css/grid.css";
 @import "css/sobre.css";
 @import "css/produtos.css";
 @import "css/portfolio.css";
 @import "css/contato.css";
+
+.customize-support .header {
+  margin-top: 32px !important;
+}
 
 /* Estilos Gerais */
 
